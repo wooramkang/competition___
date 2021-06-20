@@ -9,8 +9,8 @@ import torch.nn.functional as F
 from torch.nn import init
 import os
 import sys
-sys.path.append("/project/mobilenet/pytorch-ssd-master")
 
+sys.path.append(".")
 from meta_utils.meta_quantized_module import MetaQuantConv, MetaQuantLinear
 
 
